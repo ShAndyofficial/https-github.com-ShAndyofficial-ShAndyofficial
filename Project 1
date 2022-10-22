@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main ()
+{
+int s, h;
+printf("enter value s & h\n") ;
+scanf("%d %d", &s, &h) ;
+printf("before swapping:\n") ;
+printf("s=%d, h=%d" , s , h) ;
+s=s+h ; 
+h=s-h ;
+s=s-h ;
+printf("\n after swapping:\n") ;
+printf("s=%d, h=%d", s , h) ;
+return 'O' ;
+}
